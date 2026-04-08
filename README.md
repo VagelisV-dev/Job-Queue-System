@@ -33,7 +33,6 @@ This project demonstrates backend system design, containerized development, and 
 
 
 
-
 1. Clone the repo:
 ```bash
 git clone <your-repo-url>
@@ -51,6 +50,11 @@ Submit a job:
 JSON
 POST /jobs
 {
+  "task": "example task data"
+}
+Check job status:
+JSON
+GET /jobs/{job_id}
   "task": "example task data"
 }
 Check job status:
