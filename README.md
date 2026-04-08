@@ -31,8 +31,8 @@ This project demonstrates backend system design, containerized development, and 
 
 ## How to Run
 
-1. Clone the repo:
 
+1. Clone the repo:
 ```bash
 git clone <your-repo-url>
 cd job-queue
