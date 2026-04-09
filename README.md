@@ -31,32 +31,30 @@ This project demonstrates backend system design, containerized development, and 
 
 ## How to Run
 
+1. Clone the repository:
 
-
-1. Clone the repo:
-```bash
 git clone <your-repo-url>
 cd job-queue
 
-2. Build and start containers:
-```bash
+2. Build and start all containers:
+
 docker compose up --build
 
-3. Access API docs:
+3. Access the API documentation in your browser:
+
 http://localhost:8000/docs
 
-4. Example usage
+4. Example usage:
+
 Submit a job:
-JSON
+
 POST /jobs
+Content-Type: application/json
+
 {
   "task": "example task data"
 }
+
 Check job status:
-JSON
-GET /jobs/{job_id}
-  "task": "example task data"
-}
-Check job status:
-JSON
+
 GET /jobs/{job_id}
